@@ -1,0 +1,72 @@
+/* body open */
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px)   ;
+    min-height: 700px;                                  /* <!--Bluring height */
+    background-attachment: fixed;                   /*backgroumd FIxed not scrolling */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* body open */
+/* top bar open */
+.top-bar{
+    display:grid;
+    grid-template-columns:20% 60%;                   
+    color:palevioletred;
+    
+}
+/* Top bar  close */
+
+
+.top-bar .phone-bar, .time-bar{
+text-align: center;
+padding: 20px;
+}
+/* top bar close */
+
+
+/* Nav bar open */
+.nav-bar{
+    display:grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 10% 10% 10%;
+    padding: 20px;
+    background-color: rgba(230, 126, 8, 0.5);
+}
+.nav-bar .title{
+    text-align: center;
+    font-size: 35px;
+    color:azure;
+}
+.nav-bar .Menu-bar{
+    height:30px;
+    padding-top: 15px;
+    color:white;
+}
+/* nav bar close */
+
+/* home container pen */
+.home-bar{
+    padding:150px 150px;
+}
+/* home container close */
+.home-bar .title{
+font-size: 20px; 
+color:white;
+}
+
+.home-bar .desciption{
+    font-size:20px;
+    color:white;
+}
+.home-bar .button-group button{
+padding:10px;
+background-color:rgba(228, 98, 98, 0.3);
+color:white;
+font-size:20px;
+border:1px solid black;
+border-radius: 10px;
+}
